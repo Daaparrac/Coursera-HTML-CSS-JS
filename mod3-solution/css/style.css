@@ -21,3 +21,15 @@ div.content {
   margin-left: 0px;
   margin-right: 0px;
 }
+
+@media (max-width: 768px) {
+  .endlink {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 3499px) {
+  .endlink {
+    visibility: hidden;
+  }
+}
