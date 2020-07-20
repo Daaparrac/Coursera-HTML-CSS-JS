@@ -121,7 +121,7 @@ $(function () {
         // Use the existing insertHtml function for that purpose. Look through this code for an example
         // of how to do that.
         // ....
-        console.log(homeHtmlToInsertIntoMainPage);
+        //console.log(homeHtmlToInsertIntoMainPage);
         insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
       },
       false
